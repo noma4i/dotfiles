@@ -1,0 +1,107 @@
+{
+    "env": {
+        "browser": true
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "plugins": [
+        "html"
+    ],
+    "root": true,
+    "rules": {
+        "array-bracket-spacing": [
+            "error",
+            "never"
+        ],
+        "arrow-body-style": [
+            "error",
+            "as-needed"
+        ],
+        "arrow-parens": [
+            "error",
+            "always"
+        ],
+        "arrow-spacing": [
+            "error", {
+                "after": true,
+                "before": true
+            }
+        ],
+        "block-spacing": [
+            "error",
+            "always"
+        ],
+        "brace-style": [
+            "error",
+            "1tbs"
+        ],
+        "camelcase": "warn",
+        "comma-dangle": [
+            "error",
+            "always-multiline"
+        ],
+        "comma-spacing": [
+            "error", {
+                "after": true,
+                "before": false
+            }
+        ],
+        "func-call-spacing": [
+            "error",
+            "never"
+        ],
+        "indent": [
+            "error",
+            2
+        ],
+        "keyword-spacing": [
+            "error", {
+                "after": true,
+                "before": true
+            }
+        ],
+        "no-debugger": 0,
+        "no-multiple-empty-lines": [
+            "error", {
+                "max": 2
+            }
+        ],
+        "object-shorthand": [
+            "error",
+            "always"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "sort-imports": [
+            "error", {
+                "ignoreCase": true,
+                "ignoreMemberSort": false,
+                "memberSyntaxSortOrder": [
+                    "none",
+                    "all",
+                    "multiple",
+                    "single"
+                ]
+            }
+        ],
+        "sort-keys": [
+            "error",
+            "asc", {
+                "caseSensitive": false,
+                "natural": true
+            }
+        ],
+        "space-before-function-paren": [
+            "error",
+            "never"
+        ]
+    }
+}
