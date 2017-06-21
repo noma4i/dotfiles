@@ -68,10 +68,6 @@
                 "max": 2
             }
         ],
-        "object-shorthand": [
-            "error",
-            "always"
-        ],
         "quotes": [
             "error",
             "single"
